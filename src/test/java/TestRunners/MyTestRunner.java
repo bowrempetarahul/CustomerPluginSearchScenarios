@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/AppFeature"},
         glue = {"StepDefinitions", "AppHooks"},
         plugin = {"pretty",
-            //    "html:target/cucumber-html.html",
-            //    "json:target/cucumber-json.json",
+                "html:target/cucumber-html.html",
+                "json:target/cucumber-json.json",
 
                 "summary"
 
