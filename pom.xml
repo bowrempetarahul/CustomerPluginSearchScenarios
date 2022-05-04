@@ -42,7 +42,7 @@
                 <version>${maven.surefire.version}</version>
 
 
-            <!--    <configuration>
+                <configuration>
                     <includes>
                         <include>**/MyTestRunner.java</include>
                     </includes>
@@ -51,13 +51,6 @@
                     <useUnlimitedThreads>false</useUnlimitedThreads>
 
 
-                </configuration> -->
-
-                <configuration>
-                    <systemPropertyVariables>
-                        <extent.reporter.spark.start>true</extent.reporter.spark.start>
-                        <extent.reporter.spark.out>test-output/SparkReport/Spark.html</extent.reporter.spark.out>
-                    </systemPropertyVariables>
                 </configuration>
             </plugin>
 
